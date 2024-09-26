@@ -61,6 +61,8 @@ class MyTestCase(unittest.TestCase):
         self.assertIsNotNone(path)
 
         results.show()
+        results.save('results/results.jpg')
+        
         logger.info('Tests run')
 
 
