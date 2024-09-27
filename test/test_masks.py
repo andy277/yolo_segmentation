@@ -35,7 +35,7 @@ class MyTestCase(unittest.TestCase):
         # results.show()
         results.save('results/results.jpg')
 
-        logger.info('Tests run')
+        logger.info('test_masks run')
 
 
 if __name__ == '__main__':

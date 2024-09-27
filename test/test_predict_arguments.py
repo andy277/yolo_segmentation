@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
         results = segmentation.segment_detect_call_predict(image_path, show=True, show_conf=True)
         self.assertIsNotNone(results)
 
-
+        logger.info('test_predict_argument run')
 
 
 if __name__ == '__main__':
